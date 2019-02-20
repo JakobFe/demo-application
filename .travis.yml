@@ -3,6 +3,7 @@ python:
   - "3.6-dev"
   - "3.7-dev"
 install:
+  - pip install graphviz
   - pip install -U -r requirements.txt
   - pip install .
 script:
